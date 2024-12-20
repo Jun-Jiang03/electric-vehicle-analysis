@@ -1,0 +1,85 @@
+region,category,parameter,mode,powertrain,year,unit,value
+China,Projection-APS,EV charging points,EV,Publicly available fast,2020,charging points,310000
+China,Projection-APS,EV charging points,EV,Publicly available slow,2020,charging points,500000
+China,Projection-APS,EV charging points,EV,Publicly available fast,2021,charging points,470000
+China,Projection-APS,EV charging points,EV,Publicly available slow,2021,charging points,680000
+China,Projection-APS,EV charging points,EV,Publicly available fast,2022,charging points,760000
+China,Projection-APS,EV charging points,EV,Publicly available slow,2022,charging points,1000000
+China,Projection-APS,EV charging points,EV,Publicly available fast,2023,charging points,1200000
+China,Projection-APS,EV charging points,EV,Publicly available slow,2023,charging points,1500000
+China,Projection-APS,EV charging points,EV,Publicly available fast,2025,charging points,2100000
+China,Projection-APS,EV charging points,EV,Publicly available slow,2025,charging points,2600000
+China,Projection-APS,EV charging points,EV,Publicly available fast,2030,charging points,5100000
+China,Projection-APS,EV charging points,EV,Publicly available slow,2030,charging points,5700000
+China,Projection-APS,EV charging points,EV,Publicly available fast,2035,charging points,7300000
+China,Projection-APS,EV charging points,EV,Publicly available slow,2035,charging points,8200000
+Europe,Projection-APS,EV charging points,EV,Publicly available fast,2020,charging points,30000
+Europe,Projection-APS,EV charging points,EV,Publicly available slow,2020,charging points,220000
+Europe,Projection-APS,EV charging points,EV,Publicly available fast,2021,charging points,43000
+Europe,Projection-APS,EV charging points,EV,Publicly available slow,2021,charging points,310000
+Europe,Projection-APS,EV charging points,EV,Publicly available fast,2022,charging points,68000
+Europe,Projection-APS,EV charging points,EV,Publicly available slow,2022,charging points,440000
+Europe,Projection-APS,EV charging points,EV,Publicly available fast,2023,charging points,110000
+Europe,Projection-APS,EV charging points,EV,Publicly available slow,2023,charging points,590000
+Europe,Projection-APS,EV charging points,EV,Publicly available fast,2025,charging points,180000
+Europe,Projection-APS,EV charging points,EV,Publicly available slow,2025,charging points,880000
+Europe,Projection-APS,EV charging points,EV,Publicly available fast,2030,charging points,350000
+Europe,Projection-APS,EV charging points,EV,Publicly available slow,2030,charging points,1400000
+Europe,Projection-APS,EV charging points,EV,Publicly available fast,2035,charging points,560000
+Europe,Projection-APS,EV charging points,EV,Publicly available slow,2035,charging points,2200000
+India,Projection-APS,EV charging points,EV,Publicly available fast,2020,charging points,25
+India,Projection-APS,EV charging points,EV,Publicly available slow,2020,charging points,330
+India,Projection-APS,EV charging points,EV,Publicly available fast,2021,charging points,32
+India,Projection-APS,EV charging points,EV,Publicly available slow,2021,charging points,910
+India,Projection-APS,EV charging points,EV,Publicly available fast,2022,charging points,4100
+India,Projection-APS,EV charging points,EV,Publicly available slow,2022,charging points,6800
+India,Projection-APS,EV charging points,EV,Publicly available fast,2023,charging points,4100
+India,Projection-APS,EV charging points,EV,Publicly available slow,2023,charging points,6800
+India,Projection-APS,EV charging points,EV,Publicly available fast,2025,charging points,5400
+India,Projection-APS,EV charging points,EV,Publicly available slow,2025,charging points,61000
+India,Projection-APS,EV charging points,EV,Publicly available fast,2030,charging points,77000
+India,Projection-APS,EV charging points,EV,Publicly available slow,2030,charging points,530000
+India,Projection-APS,EV charging points,EV,Publicly available fast,2035,charging points,250000
+India,Projection-APS,EV charging points,EV,Publicly available slow,2035,charging points,1700000
+Rest of the world,Projection-APS,EV charging points,EV,Publicly available fast,2020,charging points,21000
+Rest of the world,Projection-APS,EV charging points,EV,Publicly available slow,2020,charging points,76000
+Rest of the world,Projection-APS,EV charging points,EV,Publicly available fast,2021,charging points,28000
+Rest of the world,Projection-APS,EV charging points,EV,Publicly available slow,2021,charging points,130000
+Rest of the world,Projection-APS,EV charging points,EV,Publicly available fast,2022,charging points,35000
+Rest of the world,Projection-APS,EV charging points,EV,Publicly available slow,2022,charging points,230000
+Rest of the world,Projection-APS,EV charging points,EV,Publicly available fast,2023,charging points,38000
+Rest of the world,Projection-APS,EV charging points,EV,Publicly available slow,2023,charging points,240000
+Rest of the world,Projection-APS,EV charging points,EV,Publicly available fast,2025,charging points,180000
+Rest of the world,Projection-APS,EV charging points,EV,Publicly available slow,2025,charging points,480000
+Rest of the world,Projection-APS,EV charging points,EV,Publicly available fast,2030,charging points,480000
+Rest of the world,Projection-APS,EV charging points,EV,Publicly available slow,2030,charging points,1500000
+Rest of the world,Projection-APS,EV charging points,EV,Publicly available fast,2035,charging points,670000
+Rest of the world,Projection-APS,EV charging points,EV,Publicly available slow,2035,charging points,2000000
+USA,Projection-APS,EV charging points,EV,Publicly available fast,2020,charging points,17000
+USA,Projection-APS,EV charging points,EV,Publicly available slow,2020,charging points,82000
+USA,Projection-APS,EV charging points,EV,Publicly available fast,2021,charging points,22000
+USA,Projection-APS,EV charging points,EV,Publicly available slow,2021,charging points,92000
+USA,Projection-APS,EV charging points,EV,Publicly available fast,2022,charging points,28000
+USA,Projection-APS,EV charging points,EV,Publicly available slow,2022,charging points,100000
+USA,Projection-APS,EV charging points,EV,Publicly available fast,2023,charging points,43000
+USA,Projection-APS,EV charging points,EV,Publicly available slow,2023,charging points,140000
+USA,Projection-APS,EV charging points,EV,Publicly available fast,2025,charging points,100000
+USA,Projection-APS,EV charging points,EV,Publicly available slow,2025,charging points,280000
+USA,Projection-APS,EV charging points,EV,Publicly available fast,2030,charging points,270000
+USA,Projection-APS,EV charging points,EV,Publicly available slow,2030,charging points,630000
+USA,Projection-APS,EV charging points,EV,Publicly available fast,2035,charging points,530000
+USA,Projection-APS,EV charging points,EV,Publicly available slow,2035,charging points,1200000
+World,Projection-APS,EV charging points,EV,Publicly available fast,2020,charging points,380000
+World,Projection-APS,EV charging points,EV,Publicly available slow,2020,charging points,870000
+World,Projection-APS,EV charging points,EV,Publicly available fast,2021,charging points,560000
+World,Projection-APS,EV charging points,EV,Publicly available slow,2021,charging points,1200000
+World,Projection-APS,EV charging points,EV,Publicly available fast,2022,charging points,900000
+World,Projection-APS,EV charging points,EV,Publicly available slow,2022,charging points,1800000
+World,Projection-APS,EV charging points,EV,Publicly available fast,2023,charging points,1400000
+World,Projection-APS,EV charging points,EV,Publicly available slow,2023,charging points,2500000
+World,Projection-APS,EV charging points,EV,Publicly available fast,2025,charging points,2700000
+World,Projection-APS,EV charging points,EV,Publicly available slow,2025,charging points,4300000
+World,Projection-APS,EV charging points,EV,Publicly available fast,2030,charging points,6300000
+World,Projection-APS,EV charging points,EV,Publicly available slow,2030,charging points,9800000
+World,Projection-APS,EV charging points,EV,Publicly available fast,2035,charging points,9400000
+World,Projection-APS,EV charging points,EV,Publicly available slow,2035,charging points,15000000
