@@ -3,46 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sales Volume History</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Electric Cars Analysis</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
-    <h1>Sales Volume History</h1>
-    <canvas id="salesVolumeChart" width="400" height="200"></canvas>
-    
-    <script>
-        // Fetch data from the API
-        fetch('http://127.0.0.1:5000/api/v1.0/sales_volume_history')
-            .then(response => response.json())
-            .then(data => {
-                // Extract years and volumes
-                const years = data.map(entry => entry.year);
-                const volumes = data.map(entry => parseFloat(entry.volume));
+    <h1>Electric Vehicle Sales Dashboard</h1>
+    <div>
+       <label for="countryDropdown">Select a Region:</label>
+       <select id="countryDropdown"></select>
+    </div>
 
-                // Create the bar chart
-                const ctx = document.getElementById('salesVolumeChart').getContext('2d');
-                const salesVolumeChart = new Chart(ctx, {
-                    type: 'bar',
-                    data: {
-                        labels: years,
-                        datasets: [{
-                            label: 'Sales Volume',
-                            data: volumes,
-                            backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                            borderColor: 'rgba(75, 192, 192, 1)',
-                            borderWidth: 1
-                        }]
-                    },
-                    options: {
-                        scales: {
-                            y: {
-                                beginAtZero: true
-                            }
-                        }
-                    }
-                });
-            })
-            .catch(error => console.error('Error fetching data:', error));
-    </script>
+    <div id="barChart2" style="width:100%; height:500px;"></div>
+    
+    <div id="barChart" style="width: 100%; height: 500px;"></div>
+
+    <div>
+        <label for="yearDropdown">Select Year:</label>
+        <select id="yearDropdown">
+            <!-- Years will be dynamically populated -->
+        </select>
+    </div>
+    
+    <div id="pieChart" style="width: 100%; height: 500px;"></div>
+
+    <!-- <div id="salesPieChart" style="width: 100%; height: 500px;"></div> -->
+
+    <style>
+         .responsive-img {
+            width: 50%; /* or any specific width */
+            height: auto; /* maintains aspect ratio */
+            margin: 20px;
+        }
+        .responsive-img1 {
+            border: 1px;
+            margin: 5px;
+        }
+    </style>
+
+    <div class="row">
+        <div class="column">
+        <img src="sales_volumes_byregion.png" alt="sales_volumes_by_region" class="responsive-img1"> 
+        </div>
+        <div class="column">
+        <img src="sales_volumes_bytype.png" alt="sales_volumes_by_type" class="responsive-img">
+        </div>
+        <div class="column">
+        <img src="projected_sales_volumes.png" alt="sales_volumes_by_volumes" class="responsive-img">
+        </div>
+    </div>    
+
+    <div id="plot"></div>
+    <script src="plot.js"></script>
+    <script src="plot2.js"></script>
+
+
+
 </body>
 </html>
