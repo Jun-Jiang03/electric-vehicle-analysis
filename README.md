@@ -39,6 +39,9 @@ Data folder all csv files are rare data from IEA Global EV Outlook 2024 https://
 ## Contributors
 Anjila Ghimire and Jun Jiang
 
+Presentation slides
+https://docs.google.com/presentation/d/1r4b8T99I3-GoMdnxWvk4C2b4ezlH7UoQCXwL1qn_rZQ/edit?usp=sharing
+
 
 ## Ethical Considerations
 - Clearly outline the limitations of the dataset and avoid biases
