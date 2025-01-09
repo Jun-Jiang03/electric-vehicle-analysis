@@ -1,4 +1,4 @@
-# electric-vehicle-analysis
+# Electric-vehicle-analysis
 ## Project Overview
 The electric vehicle (EV) industry is undergoing rapid transformation, driven by technological advancements, environmental concerns, and evolving consumer preferences. This report provides a comprehensive analysis of the EV market, focusing on key trends, market dynamics, and emerging opportunities. EV adoption is a growing industry tied to technology, sustainability, and policy and this interactive visualization can be used in these related topics.
 
@@ -7,7 +7,6 @@ Objectives:
 - Time slider to view charging infrastructure over years
 - Anlyzie the different types of electric cars sales trend for future insights
 
-### Installation
 ## Technologies Used
 Python, Pandas, Flask, SQLite, Bootstrap, HTML, CSS, JavaScript
 
