@@ -4,8 +4,9 @@ The electric vehicle (EV) industry is undergoing rapid transformation, driven by
 
 Objectives:
 - Analyzie the global sales trends and regional adoption to find future major markets 
-- Time slider to view charging infrastructure over years
 - Anlyzie the different types of electric cars sales trend for future insights
+- What are the top countries with the highest electric vehicle sales and does the availability of charging infrastructure affect the adoption rate of electric vehicles?
+- Which type of electric vehicles are sold the most across the world and is battery electric make up the most part of the global electric vehicle market share?
 
 ## Technologies Used
 Python, Pandas, Flask, SQLite, Bootstrap, HTML, CSS, JavaScript
