@@ -46,7 +46,7 @@ def welcome():
 def sales_volume_history():
     """Return sales volume history data."""
     results = session.query(sales_vol_his).all()
-    session.close()
+
     # Convert results to a list of dictionaries
     sales_volume_data = [{"region":row.region, "year":row.year, "powertrain": row.powertrain, "volume": row.sales_volumes} for row in results]
     return jsonify(sales_volume_data)
@@ -55,7 +55,6 @@ def sales_volume_history():
 def ev_sales_history():
     """Return EV sales history data."""
     results = session.query(ev_sales_his).all()
-    session.close()
     # Convert results to a list of dictionaries
     ev_sales_data = [{"region":row.region, "year":row.year, "powertrain": row.powertrain, "sales_shares": row.sales_shares, "volume": row.sales_volumes} for row in results]
     return jsonify(ev_sales_data)
@@ -64,7 +63,6 @@ def ev_sales_history():
 def ev_charging_history():
     """Return EV charging history data."""
     results = session.query(ev_charging_his).all()
-    session.close()
     # Convert results to a list of dictionaries
     ev_charging_data = [{"region":row.region, "year":row.year, "charging_points":row.charging_points} for row in results]
     return jsonify(ev_charging_data)
@@ -72,7 +70,6 @@ def ev_charging_history():
 def sales_volume_projection():
     """Return sales volume projection data."""
     results = session.query(sales_vol_pro).all()
-    session.close()
     # Convert results to a list of dictionaries
     sales_volume_projection_data = [{"region":row.region, "year":row.year, "powertrain": row.powertrain, "volume": row.sales_volumes} for row in results]
     return jsonify(sales_volume_projection_data)
@@ -81,7 +78,6 @@ def sales_volume_projection():
 def ev_sales_projection():
     """Return EV sales projection data."""
     results = session.query(ev_sales_pro).all()
-    session.close()
     # Convert results to a list of dictionaries
     ev_sales_projection_data = [{"region":row.region, "year":row.year, "powertrain": row.powertrain, "sales_shares": row.sales_shares, "volume": row.sales_volumes} for row in results]
     return jsonify(ev_sales_projection_data)
